@@ -1,10 +1,10 @@
-266b6bb876c522fe652e6a7acf6495fc *DESCRIPTION
+dc6db529b4c68675804ad7c7bd24e4cc *DESCRIPTION
 e98bfd8483248ecc49f99643f783413b *NAMESPACE
 7d670661092081d173a0c2b6e3ea20a0 *R/weco_rules.R
-fbcff467a090a4d646c244b674ef185b *build/vignette.rds
+d6d71227e58271f3c80da39a1490d548 *build/vignette.rds
 c8547c06ef6c906e486eea241c15c7be *inst/doc/weco-vignette.R
 8a8a5795b93bc96d435212392a015a92 *inst/doc/weco-vignette.Rmd
-8daf624278117443798ada1a044f2217 *inst/doc/weco-vignette.html
+886dcddf22274b460fad55f8adcad500 *inst/doc/weco-vignette.html
 1aa27e55c9eb468b315a59e312c8e9b7 *inst/shiny/server.R
 16297237aa008e21ff010b9093b7cbbf *inst/shiny/ui.R
 a236b4a3ac3e8fc481d804cdc91f5209 *inst/shiny/weco_tools.R
@@ -28,6 +28,7 @@ eb01d74784d20752da946d9072b14a66 *man/summary.weco.Rd
 612dee7a0a544c7eeca94803cf717781 *man/weco.info.Rd
 554ebbd31d632806afaf982d946cc4d8 *man/weco.rl.Rd
 beb7e6b9e7c0df2fd95f2dbbe2eb7fbb *man/weco.rule.Rd
-8ce9b931888d4b07687e8ab672dc1b05 *src/Makevars
+ff802ee9d3d52c836357778d7b03beb6 *src/Makevars
 45f04cbf0dfcc501801becf41db400ca *src/weco.c
+a092ac4ad9f64e540fe43a35229970f5 *src/weco_init.c
 8a8a5795b93bc96d435212392a015a92 *vignettes/weco-vignette.Rmd
