@@ -1,6 +1,6 @@
 Package: weco
 Title: Western Electric Company Rules (WECO) for Shewhart Control Chart
-Version: 1.1
+Version: 1.2
 Author: Chenguang Wang [aut, cre],
     Lingmin Zeng [aut],
     Zheyu Wang [aut],
@@ -20,6 +20,6 @@ RoxygenNote: 5.0.1
 Suggests: knitr, DT, shiny, shinythemes
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2018-01-27 17:20:38 UTC; cwang68
+Packaged: 2018-05-03 13:57:17 UTC; cwang68
 Repository: CRAN
-Date/Publication: 2018-01-27 19:37:39 UTC
+Date/Publication: 2018-05-03 23:03:19 UTC

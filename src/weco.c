@@ -133,7 +133,7 @@ void rule5(double *data, int *k, int *outofk, double *fold, double *m, double *s
       mtot++;
     }
 
-    if (ktot >= *k | mtot >= *k)
+    if ((ktot >= *k) | (mtot >= *k))
       rst[i] = 1;
   }
 
@@ -155,7 +155,7 @@ void rule5(double *data, int *k, int *outofk, double *fold, double *m, double *s
       mtot++;
     }
 
-    if (ktot >= *k | mtot >= *k)
+    if ((ktot >= *k) | (mtot >= *k))
       rst[i] = 1;
   }
 }
@@ -170,7 +170,7 @@ void rule7(double *data, int *k, double *fold, double *m, double *sd, int *n, in
   for (i = 0; i < *n; i++) {
 
     tmp = data[i] - *m; 
-    if (tmp < b & tmp > -b) {
+    if ((tmp < b) & (tmp > -b)) {
       ktot++;
     } else {
       ktot = 0;
@@ -193,7 +193,7 @@ void rule8(double *data, int *k, double *fold, double *m, double *sd, int *n, in
 
     tmp = data[i] - *m; 
 
-    if (tmp > b | tmp < -b) {
+    if ((tmp > b) | (tmp < -b)) {
       ktot++;
     } else {
       ktot = 0;
